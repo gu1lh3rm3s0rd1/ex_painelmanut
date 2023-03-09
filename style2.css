@@ -1,0 +1,474 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body{
+    background-color: rgb(226, 226, 226);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 0px;
+    transform: scale(1.0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backy{
+    background-image: url('img/background2.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+margin-top: 0;
+margin-bottom: 300px;
+    z-index: 20;
+}
+
+main {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    min-width: 150px;
+    max-width: 1380px;
+    margin: auto;
+}
+
+.adjust{
+    z-index: -15;
+}
+
+#myDiv{
+    width: 50%;
+    margin: 5px;
+    height: 400px;
+}
+
+#myDiv2{
+    width: 50%;
+    margin: 5px;
+    height: 400px;
+}
+
+img{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+
+.titulo{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 27px;
+}
+
+.transform{
+    width: 800px;
+    height: 450px;
+padding: 0px;
+margin: auto;
+}
+
+.content{
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.flex{
+    padding: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.inline{   
+    display: inline;
+}
+
+.blue-card{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    border-radius: 15px;
+    width: 220px;
+    height: 90px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    background-color: #313B6C;
+}
+
+.red-card{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    border-radius: 15px;
+    width: 220px;
+    height: 90px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    background-color: rgb(182, 76, 76);
+}
+
+.yellow-card{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    border-radius: 15px;
+    width: 220px;
+    height: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #d3b20c;
+}
+
+
+.blue-margin{
+    margin: 5px;
+    margin-left: 100px;
+    margin-right: 123px;
+}
+
+.red-margin{
+    margin: 5px;
+    margin-left: 100px;
+    margin-right: 123px;
+}
+
+.yellow-margin{
+    margin: 5px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.pd-bottom{
+    padding-bottom: 30px;
+}
+
+.font-10{
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    }
+
+.font-15{
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    }
+
+.font-20{
+    margin: auto;
+    text-align: center;
+font-size: 20px;
+}
+
+.font-25{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    }
+
+.font-30{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    }
+
+.font-35{
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    }
+
+.font-45{
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+}
+
+.white{
+    color: #fff;
+}
+
+label{
+    margin: 20px;
+}
+
+.black{
+    color: #000;
+}
+
+.yellow{
+    color: rgb(255, 201, 24);
+}
+
+.green{
+    color: rgb(0, 255, 128);
+}
+
+.gray{
+    color: rgb(32, 32, 32);
+}
+
+/*.divider-cards{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+*/
+
+.center{
+    text-align: center;
+}
+
+
+.over{
+    z-index: 15;
+}
+
+.linha{
+    height: 300px;/*Altura da linha*/
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+@media (min-height: 150px) and (max-height: 180px){
+
+    body{
+        background-color: rgb(226, 226, 226);
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: 00px;
+        transform: scale(0.1);
+        margin-left: auto;
+        margin-right: auto;
+    }}
+
+@media (min-height: 500px) and (max-height: 885px){
+
+    body{
+        background-color: rgb(226, 226, 226);
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: 0px;
+        transform: scale(0.7);
+        margin-left: auto;
+        margin-right: auto;
+    }}
+
+@media (min-height: 780px) and (max-height: 885px){
+
+    body{
+        background-color: rgb(226, 226, 226);
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: 0px;
+        transform: scale(0.8);
+        margin-left: auto;
+        margin-right: auto;
+    }}
+
+@media (min-width: 1215px) and (max-width: 1490px){
+
+    body{
+        background-color: rgb(226, 226, 226);
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: 0px;
+        transform: scale(0.7);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main {
+        padding: 4px;
+        width: auto;
+        height: auto;
+        min-width: 150px;
+        max-width: 1380px;
+        margin: auto;
+    }
+
+    .blue-margin{
+        margin: 5px;
+        margin-left: 100px;
+        margin-right: 123px;
+    }
+    
+    .red-margin{
+        margin: 5px;
+        margin-left: 100px;
+        margin-right: 123px;
+    }
+    
+    .yellow-margin{
+        margin: 5px;
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+
+    #myDiv{
+        width: 50%;
+        margin: 5px;
+        height: 340px;
+    }
+    
+    #myDiv2{
+        width: 50%;
+        margin: 5px;
+        height: 340px;
+    }
+
+}
+
+@media (min-width: 150px) and (max-width: 1214px){
+
+    body{
+        background-color: rgb(226, 226, 226);
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: 600px;
+        transform: scale(1);
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    main {
+        padding: 4px;
+        width: 100%;
+        height: auto;
+        min-width: 150px;
+        max-width: 980px;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .blue-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        justify-items: center;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFF;
+        border-radius: 15px;
+        width: 220px;
+        height: 90px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: #313B6C;
+    }
+    
+    .red-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        justify-items: center;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFF;
+        border-radius: 15px;
+        width: 220px;
+        height: 90px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: rgb(182, 76, 76);
+    }
+    
+    .yellow-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        justify-items: center;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFF;
+        border-radius: 15px;
+        width: 220px;
+        height: 80px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+        background-color: #d3b20c;
+    }
+
+    #myDiv{
+        width: 100%;
+        margin: auto;
+        height: 380px;
+    }
+    
+    #myDiv2{
+        width: 100%;
+        margin: auto;
+        height: 380px;
+    }
+
+    .flex{
+        padding: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: inline;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .inline{   
+        display: inline;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .blue-margin{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .red-margin{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        justify-items: center;
+
+    }
+    
+    .yellow-margin{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+
+}
